@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+  
+   
+    <title>CV</title>
+
+    <style>
+       
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#f8f8f8;
+}
+
+.skills-container {
+  
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #485569;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-bottom: 30px; 
+}
+
+h3 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+.logo-description {
+  
+    font-size: 14px;
+}
+
+p {
+    list-style-type: none;
+    padding: 10px 0; 
+}
+
+p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    
+}
+
+@media (max-width: 600px) {
+    .logo-container {
+        flex-wrap: wrap;
+    }
+
+    .logo-container img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    max-width: 50px; 
+    height: auto;
+}
+
+.logo-description {
+    margin-right: 10px;
+}
+
+    </style>
+</head>
+
+<body  >
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">Academic CV</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="index.html" class="active" style="--navAni:1">Home</a></li>
+                <li><a href="about.html" style="--navAni:2">About</a></li>
+                <li><a href="skills.html" style="--navAni:3">Skills</a></li>
+                <li><a href="portfolio.html" style="--navAni:4">Portfolio</a></li>
+                <li><a href="contact.html" style="--navAni:5">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="skills-container" >
+        <h2 style="color: #f8f8f8;">My Skills</h2>
+
+        <div style="background-color: #1F252E;  margin: 20px; padding: 35px;">
+            <h3>Programming Languages</h3>
+            <div class="logo-container">
+                <div class="logo-description">C </div>
+                <img src="img/671243.png" alt="C Logo">
+                <div class="logo-description">Java </div>
+                <img src="img/java logo.jpg" alt="Java Logo">
+                <div class="logo-description">Python </div>
+                <img src="img/python logo.png" alt="Python Logo">
+            </div>
+        </div>
+
+        <div style="background-color: #1F252E;  margin: 20px; padding: 35px;">
+            <h3>Web Development</h3>
+            <div class="logo-container">
+                <div class="logo-description">HTML </div>
+                <img src="img/html logo.png" alt="HTML Logo">
+                <div class="logo-description">CSS </div>
+                <img src="img/css logo.png" alt="CSS Logo">
+                <div class="logo-description">JavaScript </div>
+                <img src="img/JavaScript-Logo.png" alt="JavaScript Logo">
+            </div>
+        </div>
+
+        <div style="background-color: #1F252E;  margin: 20px; padding: 35px;">
+            <h3>Databases</h3>
+            <div class="logo-container">
+                <div class="logo-description">MySQL </div>
+                <img src="img/mysql logo.png" alt="MySQL Logo">
+            </div>
+        </div>
+
+        <div style="background-color: #1F252E;  margin: 20px; padding: 35px;">
+            <h3>Other Skills</h3>
+           <p>
+            I am skilled in designing efficient computer solutions
+            , combining my expertise in algorithms and data structures with proficiency in software design.
+             My ability to solve complex problems is evident in my approach to breaking down challenges into achievable solutions.
+              Additionally, I prioritize collaboration and teamwork.</p>
+        </div>
+
+        <div style="background-color: #1F252E;  margin: 20px; padding: 35px;">
+            <h3>Languages</h3>
+            <ul>
+                <li>*Arabic (native)</li>
+                <li>*French (fluent)</li>
+                <li>*English (fluent)</li>
+                <li>*Germain (basic knowledge)</li>
+            </ul>
+    </div>
+</body>
+
+</html>

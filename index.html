@@ -1,53 +1,64 @@
 
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Académique - Faiez Louati</title>
-  <link rel="stylesheet" type="text/css" href="css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+    <title>CV</title>
 </head>
 
 <body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">Academic CV</a>
+            </div>
+            <input type="checkbox" id="click">
 
-  <header style=" padding: 1px ">
-    <h1>CV <span style ="color:grey">Academique<span></h1>
-</header>
-  <nav>
-    <ul>
-        <li><a href="index.html">Accueil</li>
-      <li><a href="parcours.html">Parcours Académiques</a></li>
-      <li><a href="experiences.html">Expériences</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <section class ='accueil'>
-    <h3>Faiez Louati</h3>
-    <img src="img\imgs\img10.jpg" alt="ma photo" width="10%"  height="5%">
-    <p> Eleve ingénieur en informatique passionné par la conception, le développement et l'optimisation de solutions logicielles.Compétences en programmation dans divers langages, et en développement web. Expérience variée dans le domaine informatique, axée sur la résolution de problèmes complexes et l'amélioration des performances. À la recherche de nouveaux défis dans le domaine de l'informatique..</p>
-  </section>
-  <section style="margin: 10px; padding: 1px; ">
-      <h2>Compétences</h2>
-      <ul>
-          <li>Langages de programmation : C, Java, Python</li>
-          <li>Développement Web : HTML, CSS ,JavaScript</li>
-          <li>Bases de données : MySQL</li>
-          <li>Algorithmes et Structures de Données</li>
-          <li>Conception logicielle</li>
-          <li>Résolution de problèmes informatiques</li>
-          <li>Travail d'équipe et collaboration</li>
-          <li>Langues : Arabe (langue maternelle), Français (courant), Anglais (courant), Allemand (notions)</li>
-      </ul>
-  </section>
-  
-</section>
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="index.html"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="about.html" style="--navAni:2">About</a></li>
+                <li><a href="skills.html" style="--navAni:3">Skills</a></li>
+                <li><a href="portfolio.html" style="--navAni:4">Portfolio</a></li>
+                <li><a href="contact.html" style="--navAni:5">Contact</a></li>
+            </ul>
+        </div>
+    </header>
 
 
-  <footer>
-    <p>&copy; 2023 Faiez Louati</p>
-  </footer>
+    <section class="container">
+        <div class="main">
+            <div class="images">
+                <img src="img2.svg" alt="" class="img-w">
+            </div>
+            <div class="detail">
+                <h3>Hi, I'm</h3>
+                <h1><span style="color:#f9532d;">Faiez</span> Louati</h1>   
+                <h3 style="color: gray;"><span style="color:#f9532d;">IT</span> engineering student</h3>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/louati-faiez-529b822a5/" style="--socialAni:1"><i class='bx bxl-linkedin'></i></a>
 
+                    
+                   <a href="https://www.instagram.com/esprit_ingenieur/?hl=fr" style="--socialAni:2"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/faiezlouati/faieez" style="--socialAni:3"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:louati.faiez@esprit.tn" style="--socialAni:4"><i class='bx bxs-envelope'></i></a>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
-</html>
 
+</html>

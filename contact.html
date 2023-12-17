@@ -1,141 +1,132 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Faiez Louati - Contact</title>
-  <link rel="stylesheet" type="text/css" href="css.css">
-</head>
-<body>
-  <header style=" padding: 1px ">
-    <h1>CV <span style ="color:grey">Academique<span></h1>
-</header>
-  <nav>
-    <ul>
-        <li><a href="index.html">Accueil</li>
-      <li><a href="parcours.html">Parcours Académiques</a></li>
-      <li><a href="experiences.html">Expériences</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
-  
-  
-  <h3>Contact</h3>
-  <form action="#" method="post">
-      <table>
-          <tr>
-              <td>
-                  <label for="fname">Nom: </label>
-              </td>
-              <td>
-                  <input
-                      type="text"
-                      id="fname"
-                      nom="fname"
-                      minlength="3"
-                      required
-                  />
-              </td>
-          </tr>
-          <tr>
-              <td><label for="lname">Prenom</label></td>
-              <td>
-                  <input
-                      type="text"
-                      id="lname"
-                      name="lname"
-                      minlength="3"
-                  />
-              </td>
-          </tr>
-          <tr>
-              <td><label for="add">message</label></td>
-              <td>
-                  <textarea
-                      name="add"
-                      id="add"
-                      cols="20"
-                      rows="7"
-                  ></textarea>
-              </td>
-          </tr>
-              <td>
-                  <label for="email">Email<span>*</span></label>
-              </td>
-              <td>
-                  <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      required
-                  />
-              </td>
-          </tr>
-          <tr >
-            <td></td>
-              <td>
-                  <button type="submit">envoyer</button>
-              </td>
-          </tr>
-      </table>
-  </form>
-</section>
-<h4> Mes coordonnées</h4>
-<table>
-    <tr>
-        <th>
-            <img
-                src="img\imgs\img3.png"
-                alt="app"
-                width="30%"
-                height="10%"
-            />
-        </th>
-        <th>
-            <img
-                src="img\imgs\img4.jpg"
-                alt="site web"
-                width="40%"
-                height="10%"
-            />
-        </th>
-        <th>
-            <img
-                src="img\imgs\lk.jpg"
-                alt="site web"
-                width="40%"
-                height="10%"
-            />
-        </th>
-    </tr>
-    <tr>
-        <td align="center">
-          <h6 style="font-size: 1em; margin-bottom: 1px;">Mon Adresse</h6>
-          <p style="margin-bottom: 10px">Ariena Tunis</p>
-          
-        </td>
-        <td align="center">
-          <h6 style="font-size: 1em; margin-bottom: 1px;"> Email - ligne Telephonique</h6>
-          <p style="margin-bottom: 10px">Louati.faiez@esprit.tn</p>
-          <p style="margin-bottom: 10px">+216 56771913</p>
-        
-        </td>
-        <td align="center">
-            <h6 style="font-size: 1em; margin-bottom: 1px;"> Mon compte linkedin</h6>
-            <p style="margin-bottom: 10px">Faiez Louati</p>
-            
-          
-          </td>
-    </tr>
-</table>
-</div>
-<br />
-<br />
-<br />
-  <footer>
-    <p>&copy; 2023 Faiez Louati</p>
-  </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jss.js"></script>
+
+    <style>
+      body {
+            background-color: #2c3642;
+            font-family: 'Outfit', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+    
+        h3,
+        h4 {
+            color: #fff;
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+          width: 100%;
+          max-width: 600px;
+          margin: 0 auto;
+          background: #256cd6; 
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          color: #fff;
+              }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        input,
+        textarea,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: #f9532d;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        th {
+            padding: 10px;
+        }
+
+    
+    </style>
+
+    <title>CV</title>
+</head>
+
+<body  >
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">Academic CV</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="index.html" class="active" style="--navAni:1">Home</a></li>
+                <li><a href="about.html" style="--navAni:2">About</a></li>
+                <li><a href="skills.html" style="--navAni:3">Skills</a></li>
+                <li><a href="portfolio.html" style="--navAni:4">Portfolio</a></li>
+                <li><a href="contact.html" style="--navAni:5">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <h3>Contact</h3>
+    <form action="#" method="post" style="background-color: #2c3440;" onsubmit="return valid()">
+    
+        <table>
+            <tr>
+                <td><label for="fname">name: </label></td>
+                <td><input type="text" id="fname" name="fname" minlength="3" required /></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Surname</label></td>
+                <td><input type="text" id="lname" name="lname" minlength="3" required /></td>
+            </tr>
+            <tr>
+                <td><label for="CIN">ID(N°cin)</label></td>
+                <td><input type="text" id="cin" name="cin" minlength="8" /></td>
+            </tr>
+            <tr>
+                <td><label for="add">message</label></td>
+                <td><textarea name="add" id="add" cols="20" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="email">mail<span>*</span></label></td>
+                <td><input type="email" name="email" id="email" required /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Send</button></td>
+            </tr>
+        </table>
+    </form>
+
 
 </body>
+
 </html>
